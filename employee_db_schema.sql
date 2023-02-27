@@ -1,5 +1,6 @@
 DROP TABLE IF EXISTS departments;
 
+-- Creation of departments & titles performed first. This is necessary since other tables reference these two.
 CREATE TABLE departments (
     dept_no VARCHAR(5) UNIQUE NOT NULL,
     dept_name VARCHAR(20) NOT NULL,
@@ -15,7 +16,7 @@ CREATE TABLE titles(
 );
 
 DROP TABLE IF EXISTS employees;
-
+-- Employees table has priority over the last 3 tables because they reference this table.
 CREATE TABLE employees(
 	emp_no INTEGER NOT NULL,
 	emp_title_id VARCHAR(5) NOT NULL,
@@ -29,7 +30,7 @@ CREATE TABLE employees(
 );
 
 DROP TABLE IF EXISTS salaries;
-
+-- Last tables that are not referenced
 CREATE TABLE salaries(
 	emp_no INTEGER NOT NULL,
 	salary INTEGER NOT NULL,
