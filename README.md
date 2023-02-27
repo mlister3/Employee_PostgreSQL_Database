@@ -40,7 +40,7 @@
 
 8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
-> See [Analysis_Query_Out](Analysis_Query_Out/)
+> See [employee_db_ analysis_ queries.sql](./employee_db_%20analysis_%20queries.sql) for queries ran and  [Analysis_Query_Out](Analysis_Query_Out/) folder for the outputs of each query.
 
 - - -
 
