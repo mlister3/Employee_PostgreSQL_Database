@@ -40,6 +40,8 @@
 
 8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
+> See [Analysis_Query_Out](Analysis_Query_Out/)
+
 - - -
 
 ## References
