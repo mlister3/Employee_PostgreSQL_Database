@@ -12,6 +12,10 @@
 ### Data Modeling
 > Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tables. To create the sketch, feel free to use a tool like [QuickDBDLinks](https://www.quickdatabasediagrams.com/).
 
+- Result:
+
+![fig1](/db_ERD/employee_db_ERD.png)
+
 ### Data Engineering
 1. Use the provided information to create a table schema for each of the six CSV files. Be sure to do the following:
 
